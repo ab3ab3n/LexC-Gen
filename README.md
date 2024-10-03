@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://huggingface.co/papers/2402.14086"><img src="https://badgen.net/static/featured/⭐️ HF Daily Papers/orange" /></a>
-    <a href="https://arxiv.org/abs/2402.14086"><img src="https://badgen.net/static/arxiv/2402.14086/blue" /></a>
+    <a href="https://arxiv.org/abs/2402.14086"><img src="https://badgen.net/static/Conference/⭐️ EMNLP Findings 2024/orange" /></a>
     <a href="https://x.com/yong_zhengxin/status/1760862095027871925?s=20"><img src="https://badgen.net/static/Twitter/summary/blue?icon=twitter" /></a>
     <a href="https://github.com/BatsResearch/LexC-Gen"><img src="https://badgen.net/static/repo/code/yellow?icon=github" /></a>
     <a href="https://github.com/BatsResearch/LexC-Gen-Data-Archive"><img src="https://badgen.net/static/repo/data artifacts/yellow?icon=github" /></a>
@@ -13,6 +13,8 @@ LexC-Gen (which stands for **lexicon-conditioned generation**) generates labeled
 💻 This repository provides code for LexC-Gen used for generating sentiment analysis and topic classification data using Gatitos bilingual lexicons and reproducing our paper. But our code are written in a modular manner so it can be easily adapted to other tasks or bilingual lexicons.
 
 🧩 We provide our main results for NusaX and SIB-200 in `paper_results/` with average accuracy and standard deviations (over 5 runs) reported, which can serve as a form of sanity check for other researchers reproducing our work.
+
+⭐️ **Our work is accepted to the Findings of EMNLP 2024!**
 
 ---
 
@@ -385,12 +387,10 @@ python3 ./scripts/lexcgen_translate.py \
 
 ### Bibtex
 ```
-@misc{yong2024lexcgen,
-      title={LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons}, 
-      author={Zheng-Xin Yong and Cristina Menghini and Stephen H. Bach},
-      year={2024},
-      eprint={2402.14086},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{yong2024lexcgen,
+  title = {LexC-Gen: Generating Data for Extremely Low-Resource Languages with Large Language Models and Bilingual Lexicons},
+  author = {Zheng-Xin Yong and Cristina Menghini and Stephen H. Bach},
+  booktitle = {Findings of the Empirical Methods in Natural Language Processing: EMNLP 2024},
+  year = {2024}
 }
 ```
